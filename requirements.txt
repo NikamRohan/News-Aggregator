@@ -104,7 +104,7 @@ terminado==0.8.3
 testpath==0.4.4
 tornado==6.0.3
 traitlets==4.3.3
-Twisted==19.10.0
+Twisted>=20.3.0
 urllib3==1.25.8
 virtualenv==16.7.9
 virtualenv-clone==0.5.3
