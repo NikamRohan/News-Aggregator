@@ -109,7 +109,7 @@ urllib3==1.25.8
 virtualenv==16.7.9
 virtualenv-clone==0.5.3
 w3lib==1.21.0
-waitress==1.4.2
+waitress>=1.4.3
 wcwidth==0.1.8
 webencodings==0.5.1
 websocket-client==0.57.0
