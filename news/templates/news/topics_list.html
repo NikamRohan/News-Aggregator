@@ -1,0 +1,40 @@
+{% extends "news/base.html" %}
+{% load static %}
+{% block content %}
+	<div class="p-b40" >
+		<br>
+		<br>
+		<div class="container">
+		  <div class="card-deck">
+		    <div class="card mr-4" >
+		     	<img class="card-img" src="{% static 'news/images/tech.jpg' %}" alt="Card image" width="100%" height="100%" >
+		        <a href="{% url 'scrape' %}" class="btn btn-primary">Tech</a>
+			</div>
+		    <div class="card mr-4">
+		        <img class="card-img" src="{% static 'news/images/economy.jpg' %}" alt="Card image" width="100%" height="100%" >
+		        <a href="{% url 'scrape1' %}" class="btn btn-primary">Economy</a>
+		    </div>
+		    <div class="card  mr-4">
+		        <img class="card-img" src="{% static 'news/images/sports.jpg' %}" alt="Card image" width="100%" height="100%" >
+		        <a href="{% url 'scrape2' %}" class="btn btn-primary">Sports</a>
+		    </div> 
+		  </div>
+		</div><br><br><br>
+		<div class="container">
+		  <div class="card-deck">
+		    <div class="card mr-4" >
+		     	<img class="card-img" src="{% static 'news/images/politics.jpg' %}" alt="Card image" width="100%" height="100%" >
+		        <a href="{% url 'scrape3' %}" class="btn btn-primary">Politics</a>
+			</div> 
+			<div class="card mr-4" >
+		     	<img class="card-img" src="{% static 'news/images/lifestyle.jpg' %}" alt="Card image" width="100%" height="100%" >
+		        <a href="{% url 'scrape4' %}" class="btn btn-primary">Lifestyle & Health</a>
+			</div>
+			<div class="card mr-4" >
+		     	<img class="card-img" src="{% static 'news/images/entertainment.png' %}" alt="Card image" width="100%" height="100%" >
+		        <a href="{% url 'scrape5' %}" class="btn btn-primary">Entertainment</a>
+			</div>
+		  </div>
+		</div>
+	</div>
+{% endblock content %}
