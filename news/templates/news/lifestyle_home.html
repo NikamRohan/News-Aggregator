@@ -1,12 +1,15 @@
 {% extends "news/base.html" %}
 {% block content %}
+	<div>
+		<u><h1  style="text-align: center;">Lifestyle & Health News</h1></u>
+	</div>
 	<div >
 		<br>
 		<br>
 		<br><br>
 		{% for object in object_list %}
 			<div class="card" style="width: 1000px;height:auto;border:2px black solid;margin-left: 100px;">
-			<img src = "{{ object.image }}">
+			<img src = "{{ object.image }}" height="500px">
   		<div class="card-body">
   			<h5 class="card-title">
     		<div class="card-body">

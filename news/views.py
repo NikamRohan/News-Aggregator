@@ -9,17 +9,19 @@ from scrapyd_api import ScrapydAPI
 from news.models import Headline,EHeadline,SHeadline,PHeadline,LHeadline,ENHeadline
 from django.contrib.auth.decorators import login_required
 from django.views.generic import ListView
-
+from django.conf import settings as django_settings
 
 #for scrapy
 import os
 import sys
+
 sys.path.append("C:/Users/admin/Desktop/DJANGO/Practice_Django/News_Aggregator/newscrawler")
 sys.path.append("C:/Users/admin/Desktop/DJANGO/Practice_Django/News_Aggregator/economycrawler")
 sys.path.append("C:/Users/admin/Desktop/DJANGO/Practice_Django/News_Aggregator/sportscrawler")
 sys.path.append("C:/Users/admin/Desktop/DJANGO/Practice_Django/News_Aggregator/politicscrawler")
 sys.path.append("C:/Users/admin/Desktop/DJANGO/Practice_Django/News_Aggregator/lifestylecrawler")
 sys.path.append("C:/Users/admin/Desktop/DJANGO/Practice_Django/News_Aggregator/entertainmentcrawler")
+
 from newscrawler.spiders import news_spider
 from economycrawler.spiders import economy_spider
 from sportscrawler.spiders import sports_spider
