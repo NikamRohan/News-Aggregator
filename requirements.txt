@@ -13,7 +13,7 @@ colorama==0.4.3
 configparser==4.0.2
 constantly==15.1.0
 crochet==1.12.0
-cryptography==2.8
+cryptography==3.2
 cssselect==1.1.0
 cycler==0.10.0
 databricks-cli==0.9.1
