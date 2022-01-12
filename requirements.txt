@@ -53,7 +53,7 @@ parsel==1.5.2
 parso==0.5.2
 pickleshare==0.7.5
 Pillow==7.0.0
-pipenv==2018.11.26
+pipenv==2022.1.8
 prometheus-client==0.7.1
 prometheus-flask-exporter==0.12.1
 prompt-toolkit==3.0.2
