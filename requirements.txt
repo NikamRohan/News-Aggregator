@@ -52,7 +52,7 @@ pandocfilters==1.4.2
 parsel==1.5.2
 parso==0.5.2
 pickleshare==0.7.5
-Pillow==7.0.0
+Pillow==9.0.1
 pipenv==2018.11.26
 prometheus-client==0.7.1
 prometheus-flask-exporter==0.12.1
