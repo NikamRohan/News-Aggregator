@@ -80,7 +80,7 @@ pyzmq==18.1.1
 querystring-parser==1.2.4
 queuelib==1.5.0
 requests==2.22.0
-Scrapy==1.8.0
+Scrapy==2.6.1
 scrapy-djangoitem==1.1.1
 scrapyd==1.2.1
 Send2Trash==1.5.0
